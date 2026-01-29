@@ -14,5 +14,5 @@ const blog = require("./routes/blog");
 app.use("/api/v1", blog);
 
 app.listen(PORT,(req,res)=>{
-    res.send(`App is active and listening on PORT No ${PORT}`);
+   console.log(`App is active and listening on PORT No ${PORT}`);
 })
